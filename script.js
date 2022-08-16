@@ -5,7 +5,7 @@ const seconds = document.querySelector(".seconds");
 
 const countdown = () => {
 	//Set the countdown Date
-	const countdownDate = new Date("Jul 27, 2022 00:00:00").getTime();
+	const countdownDate = new Date("Jul 27, 2023 00:00:00").getTime();
 	//Set the current date / time
 	const now = new Date().getTime();
 	//Calculate the gap between the countdown date and now
