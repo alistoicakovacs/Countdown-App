@@ -4,6 +4,7 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	background-image: url(../Countdown-App/assets/pexels-ivan-khmelyuk-7222009.mp4);
 }
 
 h1 {
@@ -37,8 +38,17 @@ p {
 	text-align: center;
 }
 
-,
 daysContainer {
 	font-size: 2.5rem;
 	font-weight: bold;
+}
+
+.myVideo {
+	position: absolute;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
 }
